@@ -62,7 +62,7 @@ public:
 	}
 	
 	void print() {
-		
+		std::cout << "total Time: " << std::chrono::duration<double>(t_stop - t_start).count() << '\n'; 
 	}
 private:
 	std::chrono::high_resolution_clock::time_point t_start, t_stop;
