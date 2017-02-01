@@ -83,6 +83,10 @@ public:
   JTimedIterationManager() = delete;
   JTimedIterationManager(double ms) : counter(0), interval(ms) {}
   
+  void set_interval(double ms) {
+    interval = ms;
+  }
+  
   void start() {
     t_start = std::chrono::high_resolution_clock::now();
   }
