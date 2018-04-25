@@ -1,5 +1,5 @@
-#ifndef JUTILS.H
-#define JUTILS.H
+#ifndef JUTILS_H
+#define JUTILS_H
 
 #include <iostream>
 #include <chrono>
